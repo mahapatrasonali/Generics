@@ -4,11 +4,14 @@
     {
         public static void Main(string[] args) 
         {
-            int num1 = 34;
-            int num2 = 20;
-            int value = num1.CompareTo(num2);
+            double firstvalue = 34.3;
+            double secondvalue = 20.5;
+            double value = firstvalue.CompareTo(secondvalue);
             Console.WriteLine(value);
-            Console.ReadKey();
+            Console.Read();
+
+
+            
         }
     }
 }
