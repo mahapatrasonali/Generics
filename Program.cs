@@ -4,10 +4,19 @@
     {
         public static void Main(string[] args) 
         {
-            double firstvalue = 34.3;
-            double secondvalue = 20.5;
-            double value = firstvalue.CompareTo(secondvalue);
-            Console.WriteLine(value);
+            string firststring = "Cat";
+            string secondstring = "Apple";
+
+          //  string value = firststring.CompareTo(secondstring);
+
+            if(string.Equals(firststring,secondstring))
+            {
+                Console.WriteLine($"{firststring} is equal to {secondstring}");
+            }
+            else 
+            {
+                Console.WriteLine("strings Are Not same");
+            }
             Console.Read();
 
 

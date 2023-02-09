@@ -8,21 +8,21 @@ namespace Generics
 {
     public class FindMaximum
     {
-        public double MaximumFloatNumber(double firstvalue, double secondvalue, double thirdvalue)
+        public  string MaximumString(string firststring, string secondstring, string thirdstring)
         {
-            if (firstvalue.CompareTo(secondvalue) > 0 && firstvalue.CompareTo(thirdvalue) > 0 || firstvalue.CompareTo(secondvalue) >= 0 && firstvalue.CompareTo(thirdvalue) > 0 || firstvalue.CompareTo(secondvalue) > 0 && firstvalue.CompareTo(thirdvalue) >= 0)
+            if (firststring.CompareTo(secondstring) > 0 && firststring.CompareTo(thirdstring) > 0 || firststring.CompareTo(secondstring) >= 0 && firststring.CompareTo(thirdstring) > 0 || firststring.CompareTo(secondstring) > 0 && firststring.CompareTo(thirdstring) >= 0)
             {
-                return firstvalue;
+                return firststring;
             }
-            if (secondvalue.CompareTo(firstvalue) > 0 && secondvalue.CompareTo(thirdvalue) > 0 || secondvalue.CompareTo(firstvalue) >= 0 && secondvalue.CompareTo(thirdvalue) > 0 || secondvalue.CompareTo(firstvalue) > 0 && secondvalue.CompareTo(thirdvalue) >= 0)
+            if (secondstring.CompareTo(firststring) > 0 && secondstring.CompareTo(thirdstring) > 0 || secondstring.CompareTo(firststring) >= 0 && secondstring.CompareTo(thirdstring) > 0 || secondstring.CompareTo(firststring) > 0 && secondstring.CompareTo(thirdstring) >= 0)
             {
-                return secondvalue;
+                return secondstring;
             }
-            if (thirdvalue.CompareTo(firstvalue) > 0 && thirdvalue.CompareTo(secondvalue) > 0 || thirdvalue.CompareTo(firstvalue) >= 0 && thirdvalue.CompareTo(secondvalue) > 0 || thirdvalue.CompareTo(firstvalue) > 0 && thirdvalue.CompareTo(secondvalue) >= 0)
+            if (thirdstring.CompareTo(firststring) > 0 && thirdstring.CompareTo(secondstring) > 0 || thirdstring.CompareTo(firststring) >= 0 && thirdstring.CompareTo(secondstring) > 0 || thirdstring.CompareTo(firststring) > 0 && thirdstring.CompareTo(secondstring) >= 0)
             {
-                return thirdvalue;
+                return thirdstring;
             }
-            return firstvalue;
+            return firststring;
         }
 
 
